@@ -1,3 +1,9 @@
+# Link to the Codebase
+
+```
+https://github.com/ZijiePang/bigdata_final_project
+```
+
 # Earthquake Analytics Using Lambda Architecture
 
 A complete data pipeline that processes 10 years of global earthquake data using the Lambda Architecture pattern with Spark, Hive, HBase, and Node.js.
