@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+  <head>
+    <title>Submit Earthquake Event</title>
+    <link type="text/css" rel="stylesheet" href="elegant-aero.css" />
+  </head>
+  <body style='background-image:URL("AirLines-white.jpg");background-repeat:no-repeat;background-position:center top;-webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size: 100%;'>
+    <p style="margin-bottom:2cm"></p>
+
+    <form action="/submit_earthquake" style="width:300px;margin:0 auto;background:#FFFFFF" method="post" class="elegant-aero">
+      <label>
+        <span>Region:</span>
+        <input type="text" name="region" value="Indonesia"/>
+      </label>
+
+      <label>
+        <span>Year:</span>
+        <input type="text" name="year" value="2019"/>
+      </label>
+
+      <label>
+        <span>Magnitude:</span>
+        <input type="text" name="magnitude" value="4.8"/>
+      </label>
+
+      <label>
+        <span></span>
+        <input type="submit" value="Submit Event">
+      </label>
+    </form>
+  </body>
+</html>

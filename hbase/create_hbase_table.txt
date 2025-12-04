@@ -1,0 +1,2 @@
+create 'pangzj_eq_stats', 'q'
+create 'pangzj_eq_speed', 'q'
