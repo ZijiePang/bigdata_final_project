@@ -32,6 +32,8 @@ final_project_submission/
 
 ## Quick Start of Web App
 ```bash
+ssh -i ~/.ssh/id_rsa ec2-user@ec2-52-20-203-80.compute-1.amazonaws.com
+
 cd web/
 npm install
 node app.js 3006 http://ec2-34-230-47-10.compute-1.amazonaws.com:8070
@@ -39,6 +41,8 @@ node app.js 3006 http://ec2-34-230-47-10.compute-1.amazonaws.com:8070
 
 ## Run Spark Streaming job
 ```bash
+ssh -i ~/.ssh/id_rsa hadoop@ec2-34-230-47-10.compute-1.amazonaws.com
+
 spark-submit \
   --master yarn \
   --deploy-mode cluster \
@@ -48,5 +52,5 @@ spark-submit \
 ```
 
 ## Usage
-- Batch lookup: `http://localhost:3006/index.html`
-- Real-time submit: `http://localhost:3006/submit-earthquake.html`
+- Batch lookup: `http://ec2-52-20-203-80.compute-1.amazonaws.com:3006/index.html`
+- Real-time submit: `http://ec2-52-20-203-80.compute-1.amazonaws.com:3006/submit-earthquake.html`
